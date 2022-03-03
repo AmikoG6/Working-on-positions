@@ -18,10 +18,12 @@
     color: #FFFFFF;
 }
 .header-ul {
-    margin-left: 847px;
+    display: inline-block;
+    padding-left: 750px;
     margin-top: 28px;
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Brandon Grotesque';
+    vertical-align: top;
 }
 .header {
     position: fixed;
@@ -30,6 +32,8 @@
 .header-title {
     color: #FFFFFF;
     position: absolute;
+    font-size: 30px;
+    letter-spacing: 9px;
     left: 100px;
     bottom: 45.5px;
     font-family: 'Brandon Grotesque';
@@ -131,6 +135,7 @@
     padding-left: 90px;
     padding-top: 90px;
     font-size: 25px;
+    letter-spacing: 5px;
 }
 .text-box {
     font-family:'Brandon Grotesque' ;
@@ -149,8 +154,68 @@
     padding-top: 30px;
     font-size: 18px;
     color: #434343;
+    margin-bottom: 90px;
 }
 .sec-text-box h3 {
     font-size: 25px;
     padding-top: 90px;
+    letter-spacing: 5px;
+}
+.sec-text-background {
+    background-color: #FFFFFF;
+    max-width: 1260px;
+    width: 100%;
+    margin: 30px auto;
+}
+.third-text-box {
+    padding-top: 90px;
+    padding-left: 90px;
+    display: inline-block;
+    font-family:'Brandon Grotesque' ;
+}
+.third-text-box li {
+    display: inline-block;
+    font-size: 12px;
+    padding-top: 42.1px;
+    padding-right: 14px;
+
+}
+.third-text-box button {
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px #00000029;
+    padding: 8.9px 15.13px;
+    border: none;
+    color: #262626;
+    cursor: pointer;
+    
+}
+.third-text-box h3 {
+    display: inline-block;
+    font-size: 25px;
+    letter-spacing: 5px;
+
+}
+.non-button {
+    color: #000000;
+    font-size: 11px;
+}
+.third-text-box p {
+    display: inline-block;
+    width: 641px;
+    height: 93px;
+    padding-top: 61.83px;
+    font-size: 18px;
+    color: #434343;
+}
+i {
+    display: inline-block;
+    color: #FFFFFF;
+}
+.icon {
+    width: 33px;
+    height: 33px;
+    margin-left: 27px;
+    margin-top: 25px;
+    color: #FFFFFF;
+    
 }
