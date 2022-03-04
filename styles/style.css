@@ -40,7 +40,9 @@
 }
 .header-image {
     position: relative;
+    display: block;
 }
+
 /* .icon {
     border-radius: 50%;
 } */
